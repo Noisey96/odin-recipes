@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    background-color: lightgrey;
+}
+
+
+h1 {
+    background-color: lightseagreen;
+    font-size: 48px;
+    text-align: center;
+    margin: 0px 0px 24px 0px;
+    padding: 8px;
+}
+
+/* Styles for Index Page */
+.recipes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+a {
+    background-color: gray;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 8px;
+    width: 100px;
+}
+
+/* Styles for Recipe Pages */
+img {
+    max-width: 200px;
+    margin-bottom: 16px;
+}
+
+.description, .ingredients, .directions {
+    background-color:  gray;
+    color: white;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 8px
+}
+
+p, ul, ol {
+    font-size: 16px;
+    margin: 0px;
+}
